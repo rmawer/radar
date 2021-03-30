@@ -73,6 +73,3 @@ Cassandra,Assess,Tools,TRUE,"Distributed database engine, column-based, could be
 Kafka,Assess,Tools,TRUE,Message broker that guarrantees delivering messages and allows consumer to subscribe to topics. Very well integrated in Scala ecosystem.,,,,,,,,,,,,,,,,,,,,,
 Git,Adopt,Tools,TRUE,Code versioning system,,,,,,,,,,,,,,,,,,,,,
 TDD,Adopt,Techniques,TRUE,Test driven development,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,
