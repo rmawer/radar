@@ -96,8 +96,3 @@ Public Mock Server,Adopt,Techniques,TRUE,Specific examples of dynamic responses 
 Living Documentation,Adopt,Techniques,TRUE,Documentation coupled to real implementation and attached to a full release cycle like any other piece of software
 Prism,Adopt,Tools,TRUE,Mock server and OpenAPI contract validator
 Datadog,Assess,Tools,TRUE,observability service for cloud-scale applications
-Micro-frontends,,,,
-Webpack federated modules,,,,
-fp-ts,,,,Typed functional programming in Typescript
-Monorepo,,,,Software development strategy where code for many projects is stored in the same repository
-Visual testing,,,,
