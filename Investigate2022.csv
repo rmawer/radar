@@ -1,0 +1,103 @@
+﻿name,ring,quadrant,isNew,description
+Pipelines for infrastructure as code,Adopt,Techniques,FALSE,"The use of pipelines for infrastructure as code lets you find errors before changes are applied to operational environments — including environments used for development and testing. They also offer a way to ensure that infrastructure tooling is run consistently, using CI/CD agents rather than individual workstations."
+Terraform,Adopt,Tools,FALSE,"Terraform, is rapidly becoming a de facto choice for creating and managing cloud infrastructures by writing declarative definitions."
+Chaos Engineering,Assess,Techniques,FALSE,Chaos engineering is the discipline of experimenting on a software system in production in order to build confidence in the system's capability to withstand turbulent and unexpected conditions.
+Zero-Trust Architecture,Adopt,Techniques,FALSE,ZTA is a paradigm shift in security architecture and strategy. Its based on the assumption that a network perimeter is no longer representative of a secure boundary and no implicit trust should be granted to users or services based solely on their physical or network location. 
+Kubernetes,Adopt,Platforms,FALSE,Kubernetes has become the container orchestration platform of choice for major public cloud platforms.
+Pulumi,Assess,Platforms,FALSE,"Pulumi distinguishes itself by allowing configurations (for Infrastructure as Code) to be written in TypeScript/JavaScript, Python and Go — no markup language or templating required. Pulumi is tightly focused on cloud-native architectures — including containers, serverless functions and data services — and provides good support for Kubernetes. "
+Observability as code,Assess,Techniques,FALSE,"Traditionally, configuration of monitoring dashboards and setting up alerts is done through GUI-based point-and-click systems. This approach leads to nonrepeatable dashboard configurations, no ability to continuously test and adjust alerts to avoid alert fatigue or missing out on important alerts, and drift from organizational best practices."
+The three Rs of security,Trial,Techniques,FALSE,"The three Rs of enterprise security — rotate, repair and repave — take advantage of infrastructure automation and continuous delivery to eliminate opportunities for attack. Rotating credentials, applying patches as soon as they're available and rebuilding systems from a known, secure state — all within a matter of minutes or hours — makes it harder for attackers to succeed."
+"""Handcranking"" of Hadoop clusters using config management tools",Hold,Techniques,FALSE,"""Handcranking"" of Hadoop clusters happens when using config management tools such as Ansible, Chef and others. Although these tools are great at provisioning immutable infrastructure components, they're not very useful when you have to manage stateful systems and can often lead to significant effort trying to manage and evolve clusters using these tools."
+In-house services,Hold,Techniques,FALSE,In-house services usually are cheaper and give more features than managed services. However this come with more management overhead. Consider moving to managed services rather than deploying and managing ourselves
+AWS,Adopt,Platforms,FALSE,AWS is still the best cloud platform around for our purposes.
+AWS Cloud Development Kit,Trial,Platforms,FALSE,"Like Pulumi, it allows Infrastructure as Code using existing languages"
+Elastic Search,Adopt,Platforms,FALSE,ElasticSearch is a good SIEM tool. Its monitoring capabilities are improving with time.
+Infrastructure As Code,Adopt,Techniques,FALSE,Infrastructure As Code means defining and treating the infrastructure like software.
+Automated deployment pipeline,Adopt,Techniques,FALSE,Pipelines allow the visualization of otherwise complex chains of build and deployment activities.
+Separate DevOps team,Hold,Techniques,FALSE,"We recommend embedding operations skills into delivery teams to reduce friction and deliver better outcomes. However where there is a need for significant investment in tooling and automation, we do see a role for a Delivery Engineering team.  Rather than being a helpdesk, these teams build tooling and enable teams to deploy, monitor, and maintain their own production environments.  "
+Scala,Adopt,Languages & frameworks,FALSE,cross platform open source functional programming and OO language
+Python,Adopt,Languages & frameworks,FALSE,cross platform open source programming language
+Spark,Adopt,Languages & frameworks,FALSE,system for distributed data processing
+scikit-learn,Adopt,Languages & frameworks,FALSE,python most popular ML library
+Neo4j,Adopt,Tools,FALSE,proprietary graph database management system
+Solr,Adopt,Tools,FALSE,open source enterprise-search platform from Apache Lucene project
+Docker,Adopt,Platforms,FALSE,platform that use OS-level virtualization to deliver software in containers
+Jupyter,Adopt,Tools,FALSE,multi language open source notebook web application
+Apache Airflow,Adopt,Tools,FALSE,open-source workflow management tool for data-processing pipelines as directed acyclic graphs (DAGs)
+Amazon EMR,Trial,Platforms,FALSE,managed cluster platform that simplifies running big data frameworks
+AWS Step Functions,Trial,Tools,FALSE,serverless orchestration service
+Terminator,Adopt,Tools,FALSE,Linux terminal emulator
+Bash,Adopt,Languages & frameworks,FALSE,Unix shell and command language
+Intellij,Adopt,Tools,FALSE,IDE for scala/java languages
+PyCharm,Adopt,Tools,FALSE,IDE for python language
+Huggingface,Assess,Languages & frameworks,FALSE,popular AI community to share state of the art models for natural language processing
+PyTorch,Assess,Languages & frameworks,FALSE,"open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing"
+Tensorflow,Assess,Languages & frameworks,FALSE,open-source software library for machine learning
+Apache Superset,Assess,Platforms,FALSE,open-source software cloud-native application for data exploration and data visualization able to handle data at petabyte scale
+Apache Griffin,Assess,Platforms,FALSE,open source Data Quality solution for Big Data
+Amazon Deequ,Assess,Languages & frameworks,FALSE,"Data Quality solution built on top of Apache Spark to support fast, distributed calculations on large datasets"
+Great Expectations,Assess,Tools,FALSE,"open source tool to help data teams eliminate pipeline debt, through data testing, documentation, and profiling"
+DBT ,Assess,Tools,FALSE,command-line tool that enables data analysts and engineers to transform data in their warehouses simply by writing select statements
+Apache Akka,Hold,Languages & frameworks,FALSE,"Actor model implementation, very good for heavy stateful designs and event sourcing but it is overused in some cases."
+Functional programming,Adopt,Techniques,FALSE,Programming paradign that allows to combine computations as expressions instead as statements
+GRPC,Adopt,Languages & frameworks,FALSE,Replacement of rest for internal services interaction
+OpenAPI,Adopt,Languages & frameworks,FALSE,For exposed services
+Protobuffers/Avro,Adopt,Languages & frameworks,FALSE,Implementation of schema evolution serialization
+ZIO,Trial,Languages & frameworks,FALSE,Pure functional ecosystem that powers up Scala FP capabilities
+React Hooks,Trial,Languages & frameworks,FALSE,"More modern approach to state managment, less boilerplate code than Redux"
+React,Adopt,Languages & frameworks,FALSE,Open source system for UI development
+D3,Adopt,Languages & frameworks,FALSE,Open source system for graphs
+Redux,Hold,Languages & frameworks,FALSE,Open source system for state managment
+Sass css,Adopt,Languages & frameworks,FALSE,CSS stylesheet lenguage
+Webpack,Adopt,Languages & frameworks,FALSE,Build tool for creating javascript and css distributions
+Typescript,Assess,Languages & frameworks,FALSE,Popular framework for using static types in javascript
+Gatlin,Adopt,Languages & frameworks,FALSE,Open source Scala performance testing framework
+Scala 3,Adopt,Languages & frameworks,FALSE,JVM language that mixes OO and FP paradigms 
+Play,Hold,Languages & frameworks,FALSE,Strict framework based on run time dependency injection as Spring
+MVC,Hold,Languages & frameworks,FALSE,Architectural pattern where viewes are rendered in server side
+EKS,Trial,Platforms,FALSE,Provides a easy was to manage Kubernetes administration
+AWS Neptune,Assess,Platforms,FALSE,AWS Graph db service
+AWS DocumentDB,Assess,Platforms,FALSE,AWS document db service
+AWS ElasticSearch,Assess,Platforms,FALSE,AWS Elasticsearch service
+Gitlab,Adopt,Platforms,FALSE,Collaborative tool supporting whole software life clycle
+Continuous Delivery,Adopt,Techniques,FALSE,Automating release on code merging
+Contract Testing,Adopt,Techniques,FALSE,"On integration, it checks every service api compatibility with its collaborators   "
+CQRS,Adopt,Techniques,FALSE,Command Query Responsibility Segregation. Separating this two concerns allows systems to have a design that can scale independently in each direction.  
+Reactive Architecture,Adopt,Techniques,FALSE,"Principle that describe systems that are responsive, resilient, elastic and message driven"
+Schema Evolution Serialization,Adopt,Techniques,FALSE,Allows to evolve system messages keeping retrocompatibility and in some cases changes tracking. Similar techniques applies to db schemas or even-sourcing.
+Service mesh,Assess,Techniques,FALSE,Isolate services behind a common communication layer  
+WhiteListing permissions,Adopt,Techniques,FALSE,"On granting access to resources,  omissions should not be interpreted at all "
+Blue-Green Deployments,Hold,Techniques,FALSE,On favor on rolling updates when possible
+Event Sourcing,Adopt,Techniques,FALSE,"Persistence technique that works very well in distributed, resilient and eventually consistent systems. "
+Role-Based Access Control,Trial,Techniques,FALSE,Resource oriented access control approach where the user/gent can adopt several roles in order to performs actions resources policies
+Devops Culture,Adopt,Techniques,FALSE,Principle in software life cicle where the whole dev. team performs operations using automated tasks
+Continuous Integration,Adopt,Techniques,FALSE,Practice that automate code delivering into testing environments 
+Event Streaming,Trial,Techniques,FALSE,"Support for techniques like pub/sub, back preasure, reentrant messages and gurantees deliver"
+Single source of truth,Adopt,Techniques,FALSE,"In any system, specially distributed, any state is own by a single collaborator "
+Runtime dependency injection,Hold,Techniques,FALSE,Any dependency within same code base must be resolved on compilation time
+Static types and type inference,Adopt,Techniques,FALSE,Great support for crating accurate domain models and functional expressions
+Cassandra,Assess,Tools,FALSE,"Distributed database engine, column-based, could be a way to simplify stacks where coexits several relational and no-sql databases"
+Kafka,Assess,Tools,FALSE,Message broker that guarrantees delivering messages and allows consumer to subscribe to topics. Very well integrated in Scala ecosystem.
+Git,Adopt,Tools,FALSE,Code versioning system
+TDD,Adopt,Techniques,FALSE,Test driven development
+Identity Federation,Adopt,Techniques,TRUE,3rd party identity provider
+SSO,Adopt,Techniques,TRUE,Single logon for every GBG product
+MFA,Adopt,Techniques,TRUE,Multi Factor Authentication will be implemented as much as possible using the new identity provider
+Dapr,Adopt,Languages & frameworks,TRUE,Microservices will use this abstraction tayer to communicate to outside world
+Gloo Gateway,Adopt,Tools,TRUE,Initially as Kubernetes edge gateway and possibily extending to other tooling of the same suite 
+Azure Devops,Adopt,Platforms,TRUE,CI/CD Platform of choice
+Istio,Adopt,Tools,TRUE,Network level service mesh
+Pub/Sub,Adopt,Techniques,TRUE,Technique of choice when sharing messages from different systems or when and asyncronous and back-preasured solution is needed
+Dark Launch,Assess,Techniques,TRUE,Release approach that enable us to run e2e testing live environments without impacting customers
+No distinction between North/South or East/West traffic,Adopt,Techniques,TRUE,"In a microservice environment, any traffic must be evaluated, no trafiic is trusted."
+Cypress,Adopt,Languages & frameworks,TRUE,"Unit, Integration and E2E tests"
+API-first development,Adopt,Techniques,TRUE,Design first the API to expose to consumer using contract definitions like OpenAPI or GRPC
+Public Mock Server,Adopt,Techniques,TRUE,Specific examples of dynamic responses available for consumers to allow early adoption and feedback
+Living Documentation,Adopt,Techniques,TRUE,Documentation coupled to real implementation and attached to a full release cycle like any other piece of software
+Prism,Adopt,Tools,TRUE,Mock server and OpenAPI contract validator
+Datadog,Assess,Tools,TRUE,observability service for cloud-scale applications
+Micro-frontends,,,,
+Webpack federated modules,,,,
+fp-ts,,,,Typed functional programming in Typescript
+Monorepo,,,,Software development strategy where code for many projects is stored in the same repository
+Visual testing,,,,
