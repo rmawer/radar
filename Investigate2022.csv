@@ -44,13 +44,13 @@ GRPC,Adopt,Languages & frameworks,TRUE,Replacement of rest for internal services
 OpenAPI,Adopt,Languages & frameworks,TRUE,For exposed services
 Protobuffers/Avro,Adopt,Languages & frameworks,FALSE,Implementation of schema evolution serialization
 ZIO,Trial,Languages & frameworks,FALSE,Pure functional ecosystem that powers up Scala FP capabilities
-React Hooks,Trial,Languages & frameworks,FALSE,"More modern approach to state managment, less boilerplate code than Redux"
+React Hooks,Adopt,Languages & frameworks,TRUE,"More modern approach to state managment, less boilerplate code than Redux"
 React,Adopt,Languages & frameworks,FALSE,Open source system for UI development
 D3,Adopt,Languages & frameworks,FALSE,Open source system for graphs
 Redux,Hold,Languages & frameworks,FALSE,Open source system for state managment
 Sass css,Adopt,Languages & frameworks,FALSE,CSS stylesheet lenguage
 Webpack,Adopt,Languages & frameworks,FALSE,Build tool for creating javascript and css distributions
-Typescript,Assess,Languages & frameworks,FALSE,Popular framework for using static types in javascript
+Typescript,Adopt,Languages & frameworks,TRUE,Popular framework for using static types in javascript
 Gatlin,Adopt,Languages & frameworks,FALSE,Open source Scala performance testing framework
 Scala 3,Adopt,Languages & frameworks,FALSE,JVM language that mixes OO and FP paradigms 
 Play,Hold,Languages & frameworks,FALSE,Strict framework based on run time dependency injection as Spring
@@ -96,3 +96,14 @@ Public Mock Server,Adopt,Techniques,TRUE,Specific examples of dynamic responses 
 Living Documentation,Adopt,Techniques,TRUE,Documentation coupled to real implementation and attached to a full release cycle like any other piece of software
 Prism,Adopt,Tools,TRUE,Mock server and OpenAPI contract validator
 Datadog,Assess,Tools,TRUE,observability service for cloud-scale applications
+Micro-frontends,Trial,Techniques,TRUE,Microservices architecture applied to frontend: root application using and binding smaller applications or component libraries
+Module Federation in Webpack,Trial,Tools,TRUE,"Multiple separated separate builds that should not have dependencies between each other, so they can be developed and deployed individually - This enables micro-frontends."
+fp-ts,Trial,Languages & frameworks,TRUE,fp-ts is a library for typed functional programming in TypeScript
+Monorepo,Adopt,Techniques,TRUE,Software development strategy where code for many projects is stored in the same repository
+Visual testing,Adopt,Techniques,TRUE,Visual testing evaluates the visible output of an application and compares that output against the results expected by design or a previous snapshot.
+Nx,Assess,Tools,TRUE,"Smart, fast and extensible build system with first class monorepo support and powerful integrations."
+Vite,Trial,Tools,TRUE,Vite is new frontend module bundler focused on performance and fast builds.
+Babylon.js,Trial,Languages & frameworks,TRUE,Real time 3D engine using a JavaScript library for displaying 3D graphics in a web browser via HTML5. Can be the one used by Microsoft in its web-based Metaverse.
+Helm,Adopt,Tools,TRUE,"Helm is a Kubernetes deployment tool for automating creation, packaging, configuration, and deployment of applications and services to Kubernetes clusters."
+Helmfile,Assess,Tools,TRUE,Helmfile is a declarative specification for deploying Helm charts that adds functionality to Helm.
+Redux Saga,Adopt,Languages & frameworks,TRUE,An intuitive Redux side effect manager. Easy to manage, easy to test, and executes efficiently.
