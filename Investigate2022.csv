@@ -1,4 +1,4 @@
-﻿name,ring,quadrant,isNew,description
+name,ring,quadrant,isNew,description
 Pipelines for infrastructure as code,Adopt,Techniques,FALSE,"The use of pipelines for infrastructure as code lets you find errors before changes are applied to operational environments — including environments used for development and testing. They also offer a way to ensure that infrastructure tooling is run consistently, using CI/CD agents rather than individual workstations."
 Terraform,Adopt,Tools,TRUE,"Terraform, is rapidly becoming a de facto choice for creating and managing cloud infrastructures by writing declarative definitions."
 Chaos Engineering,Assess,Techniques,FALSE,Chaos engineering is the discipline of experimenting on a software system in production in order to build confidence in the system's capability to withstand turbulent and unexpected conditions.
@@ -86,6 +86,7 @@ MFA,Adopt,Techniques,TRUE,Multi Factor Authentication will be implemented as muc
 Dapr,Adopt,Languages & frameworks,TRUE,Microservices will use this abstraction tayer to communicate to outside world
 Gloo Gateway,Adopt,Tools,TRUE,Initially as Kubernetes edge gateway and possibily extending to other tooling of the same suite 
 Azure Devops,Adopt,Platforms,TRUE,CI/CD Platform of choice
+Azure Devops Pipeline Templates,Adopt,Tools,TRUE,Azure Pipeline templates allow you to remove duplication in your Azure Pipeline definition and allow in an easy way to extend existing templates
 Istio,Adopt,Tools,TRUE,Network level service mesh
 Pub/Sub,Adopt,Techniques,TRUE,Technique of choice when sharing messages from different systems or when and asyncronous and back-preasured solution is needed
 Dark Launch,Assess,Techniques,TRUE,Release approach that enable us to run e2e testing live environments without impacting customers
@@ -107,3 +108,10 @@ Babylon.js,Trial,Languages & frameworks,TRUE,Real time 3D engine using a JavaScr
 Helm,Adopt,Tools,TRUE,"Helm is a Kubernetes deployment tool for automating creation, packaging, configuration, and deployment of applications and services to Kubernetes clusters."
 Helmfile,Assess,Tools,TRUE,Helmfile is a declarative specification for deploying Helm charts that adds functionality to Helm.
 Redux Saga,Adopt,Languages & frameworks,TRUE,An intuitive Redux side effect manager. Easy to manage, easy to test, and executes efficiently.
+Documentation quadrants,Trial,Techniques,TRUE,"This technique defines four quadrants in which artifacts such as tutorials, how-to guides or reference pages can be placed and understood. This classification system not only ensures that critical artifacts aren't overlooked but also guides the presentation of the content."
+Transitional Architecture,Assess,Techniques,TRUE,"A transitional architecture is a useful practice used when replacing legacy systems. Much like scaffolding might be built, reconfigured and finally removed during construction or renovation of a building, you often need interim architectural steps during legacy displacement."
+Miscellaneous platform teams,Hold,Techniques,TRUE,"These miscellaneous platform teams struggle to deliver due to high cognitive loads and a lack of clearly aligned priorities as they’re dealing with a miscellaneous collection of unrelated systems. They effectively become just another general support team for things that don’t fit or that are unwanted elsewhere"
+Cloud Carbon Footprint,Assess,Tools,TRUE,"Cloud Carbon Footprint (CCF) is an open-source tool that uses cloud APIs to provide visualizations of estimated carbon emissions based on usage across AWS, GCP and Azure"
+Podman,Trial,Tools,TRUE,"As an alternative to Docker, Podman has been validated by many of our teams. Podman introduces a daemonless engine for managing and running containers which is an interesting approach in comparison to what Docker does."
+Sonarqube,Adopt,Tools,TRUE,"Static and dynamic code analysis to improve security from the start"
+Docker container scan,Adopt,Tools,TRUE,"To enforce our zero-trust architecture we need to scan evey component used. Docker containers need to be checked frequently, before creation and at runtime."
