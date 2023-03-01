@@ -120,3 +120,7 @@ Cloud Carbon Footprint,Assess,Tools,FALSE,"Cloud Carbon Footprint (CCF) is an op
 Podman,Trial,Tools,FALSE,"As an alternative to Docker, Podman has been validated by many of our teams. Podman introduces a daemonless engine for managing and running containers which is an interesting approach in comparison to what Docker does."
 Sonarqube,Adopt,Tools,FALSE,"Static and dynamic code analysis to improve security from the start"
 Docker container scan,Adopt,Tools,FALSE,"To enforce our zero-trust architecture we need to scan evey component used. Docker containers need to be checked frequently, before creation and at runtime."
+No-code,Assess,Techniques,TRUE,"No-code solutions allow even non-developers to take an existing concept to production quickly, with minimal time and resources."
+Microsoft Power Apps,Assess,Platforms,TRUE,"Microsoft's low-code platform that simplifies automated tasks, among others."
+Chatbots,Assess,Techniques,TRUE,"A chatbot is software that simulates human-like conversations with users via chat. Its key task is to answer user questions with instant messages."
+Natural User Interfaces,Assess,Techniques,TRUE,"It’s all about seamless experiences: voice-driven interactions — not only voice commands but more advanced, natural dialogues and forms of communication combining multiple signals in meaningful, streamlined experiences."
