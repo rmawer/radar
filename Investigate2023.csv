@@ -46,12 +46,9 @@ Protobuffers/Avro,Adopt,Languages & frameworks,FALSE,Implementation of schema ev
 ZIO,Trial,Languages & frameworks,FALSE,Pure functional ecosystem that powers up Scala FP capabilities
 React Hooks,Adopt,Languages & frameworks,FALSE,"More modern approach to state managment, less boilerplate code than Redux"
 React,Adopt,Languages & frameworks,FALSE,Open source system for UI development
-React Query,Adopt,Languages & frameworks,FALSE,"Improved data fetch, cache and refresh"
-React Hook Form,Adopt,Languages & frameworks,FALSE,"React library providing performant, flexible and extensible forms with easy-to-use validation."
 D3,Adopt,Languages & frameworks,FALSE,Open source system for graphs
 Redux,Adopt,Languages & frameworks,TRUE,Open source system for state managment
 Sass css,Adopt,Languages & frameworks,FALSE,CSS stylesheet lenguage
-CSS modules,Trial,Languages & frameworks,TRUE,Component-scoped CSS thanks to Webpack
 Webpack,Adopt,Languages & frameworks,FALSE,Build tool for creating javascript and css distributions
 Typescript,Adopt,Languages & frameworks,FALSE,Popular framework for using static types in javascript
 Gatlin,Adopt,Languages & frameworks,FALSE,Open source Scala performance testing framework
@@ -95,7 +92,6 @@ Pub/Sub,Adopt,Techniques,FALSE,Technique of choice when sharing messages from di
 Dark Launch,Assess,Techniques,FALSE,Release approach that enable us to run e2e testing live environments without impacting customers
 No distinction between North/South or East/West traffic,Adopt,Techniques,FALSE,"In a microservice environment, any traffic must be evaluated, no trafiic is trusted."
 Cypress,Adopt,Languages & frameworks,FALSE,"Acceptance and E2E tests"
-Cypress for component testing,Adopt,Languages & frameworks,TRUE,"Component (unit) tests"
 API-first development,Adopt,Techniques,FALSE,Design first the API to expose to consumer using contract definitions like OpenAPI or GRPC
 Public Mock Server,Adopt,Techniques,FALSE,Specific examples of dynamic responses available for consumers to allow early adoption and feedback
 Living Documentation,Adopt,Techniques,FALSE,Documentation coupled to real implementation and attached to a full release cycle like any other piece of software
@@ -108,7 +104,6 @@ Monorepo,Adopt,Techniques,FALSE,Software development strategy where code for man
 Visual testing,Adopt,Techniques,FALSE,Visual testing evaluates the visible output of an application and compares that output against the results expected by design or a previous snapshot.
 Nx,Adopt,Tools,TRUE,"Smart, fast and extensible build system with first class monorepo support and powerful integrations."
 Vite,Assess,Tools,TRUE,Vite is new frontend module bundler focused on performance and fast builds.
-NestJS,Adopt,Languages & frameworks,TRUE,Vite is new frontend module bundler focused on performance and fast builds.
 Babylon.js,Assess,Languages & frameworks,TRUE,Real time 3D engine using a JavaScript library for displaying 3D graphics in a web browser via HTML5. Can be the one used by Microsoft in its web-based Metaverse.
 Helm,Adopt,Tools,FALSE,"Helm is a Kubernetes deployment tool for automating creation, packaging, configuration, and deployment of applications and services to Kubernetes clusters."
 Helmfile,Adopt,Tools,TRUE,Helmfile is a declarative specification for deploying Helm charts that adds functionality to Helm.
@@ -120,7 +115,12 @@ Cloud Carbon Footprint,Assess,Tools,FALSE,"Cloud Carbon Footprint (CCF) is an op
 Podman,Trial,Tools,FALSE,"As an alternative to Docker, Podman has been validated by many of our teams. Podman introduces a daemonless engine for managing and running containers which is an interesting approach in comparison to what Docker does."
 Sonarqube,Adopt,Tools,FALSE,"Static and dynamic code analysis to improve security from the start"
 Docker container scan,Adopt,Tools,FALSE,"To enforce our zero-trust architecture we need to scan evey component used. Docker containers need to be checked frequently, before creation and at runtime."
+Cypress for component testing,Adopt,Languages & frameworks,TRUE,"Component (unit) tests."
+CSS modules,Trial,Languages & frameworks,TRUE,Component-scoped CSS thanks to Webpack.
+React Query,Adopt,Languages & frameworks,TRUE,"Improved data fetch, cache and refresh."
+React Hook Form,Adopt,Languages & frameworks,TRUE,"React library providing performant, flexible and extensible forms with easy-to-use validation."
+NestJS,Adopt,Languages & frameworks,TRUE,"A progressive Node.js framework for building efficient, reliable and scalable server-side applications."
 No-code,Assess,Techniques,TRUE,"No-code solutions allow even non-developers to take an existing concept to production quickly, with minimal time and resources."
 Microsoft Power Apps,Assess,Platforms,TRUE,"Microsoft's low-code platform that simplifies automated tasks, among others."
 Chatbots,Assess,Techniques,TRUE,"A chatbot is software that simulates human-like conversations with users via chat. Its key task is to answer user questions with instant messages."
-Natural User Interfaces,Assess,Techniques,TRUE,"It’s all about seamless experiences: voice-driven interactions — not only voice commands but more advanced, natural dialogues and forms of communication combining multiple signals in meaningful, streamlined experiences."
+Natural User Interfaces,Trial,Techniques,TRUE,"It's all about seamless experiences: voice-driven interactions — not only voice commands but more advanced, natural dialogues and forms of communication combining multiple signals in meaningful, streamlined experiences."
