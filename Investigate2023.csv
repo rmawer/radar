@@ -119,7 +119,9 @@ Cypress for component testing,Adopt,Languages & frameworks,TRUE,"Component (unit
 CSS modules,Trial,Languages & frameworks,TRUE,Component-scoped CSS thanks to Webpack.
 React Query,Adopt,Languages & frameworks,TRUE,"Improved data fetch, cache and refresh."
 React Hook Form,Adopt,Languages & frameworks,TRUE,"React library providing performant, flexible and extensible forms with easy-to-use validation."
+Event-driven application architecture,Adopt,Techniques,TRUE,"Event-driven architecture (EDA) is a software design pattern that enables an organization to detect “events” or important business moments (such as a transaction, site visit, shopping cart abandonment, etc) and act on them in real time or near real time. Improves separation of concerns and maintainability, among others."
 NestJS,Adopt,Languages & frameworks,TRUE,"A progressive Node.js framework for building efficient, reliable and scalable server-side applications."
+Prisma,Trial,Languages & frameworks,TRUE,"Next generation ODM for NodeJS and Typescript. Prisma unlocks a new level of developer experience when working with databases thanks to its intuitive data model, automated migrations, type-safety & auto-completion."
 No-code,Assess,Techniques,TRUE,"No-code solutions allow even non-developers to take an existing concept to production quickly, with minimal time and resources."
 Microsoft Power Apps,Assess,Platforms,TRUE,"Microsoft's low-code platform that simplifies automated tasks, among others."
 Chatbots,Assess,Techniques,TRUE,"A chatbot is software that simulates human-like conversations with users via chat. Its key task is to answer user questions with instant messages."
